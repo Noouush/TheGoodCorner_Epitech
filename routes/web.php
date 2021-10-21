@@ -17,6 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function() {
-    return "The Good Corner";
+Route::get('/privacy-policy', function() {
+    return view('rgpd');
+});
+
+
+Route::get('/user', function() {
+    return view('users.user');
 });
