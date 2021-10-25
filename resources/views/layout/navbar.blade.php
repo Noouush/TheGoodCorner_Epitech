@@ -51,10 +51,7 @@
                             </svg>
                         </a>
 
-                        <!-- Partie a changer pour s'adapter a votre taf -->
-
-                    <!-- Fin de la partie a changer -->
-
+                        <!-- Insert $_SESSION -->
 
                     </ul>
                 </div>
