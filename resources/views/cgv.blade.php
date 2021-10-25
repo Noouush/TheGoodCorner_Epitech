@@ -1,4 +1,6 @@
-@extends('layout.navbar')
+@extends('layout.base')
+
+@include('layout.navbar')
 
 @section('content')
 
@@ -29,6 +31,6 @@ Orientis vero limes in longum protentus et rectum ab Euphratis fluminis ripis ad
     </div>
 </div>
 
-
+@include('layout.footer')
 
 @endsection
